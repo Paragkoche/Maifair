@@ -35,7 +35,7 @@ const contactDetails = [
 ];
 
 export default function ContactPage() {
-  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "919209219328";
+  const waNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918552022895";
   const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent("Hi Maifair! I'd like to get in touch.")}`;
 
   return (
