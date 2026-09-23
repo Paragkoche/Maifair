@@ -18,8 +18,8 @@ const contactDetails = [
   {
     icon: <Phone size={18} className="text-[#c9a84c]" />,
     label: "Phone",
-    value: "+91 92092 19328",
-    href: "tel:+919209219328",
+    value: "+91 85520 22895",
+    href: "tel:+918552022895",
   },
   {
     icon: <Mail size={18} className="text-[#c9a84c]" />,
@@ -141,8 +141,17 @@ export default function ContactPage() {
                   <span className="gold-divider gold-divider-left mt-3" />
                 </div>
 
-                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" className="space-y-5">
-                  <input type="hidden" name="access_key" value="1019192d-296d-4e2b-8596-51f018eb6770" />
+                <form
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  id="contact-form"
+                  className="space-y-5"
+                >
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="1019192d-296d-4e2b-8596-51f018eb6770"
+                  />
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
                       <label className="block text-[0.65rem] font-semibold tracking-[0.15em] uppercase text-[#c9a84c] mb-2">
@@ -200,7 +209,11 @@ export default function ContactPage() {
                     />
                   </div>
 
-                  <button type="submit" id="contact-submit" className="btn-gold w-full py-4">
+                  <button
+                    type="submit"
+                    id="contact-submit"
+                    className="btn-gold w-full py-4"
+                  >
                     Send Message
                   </button>
                 </form>
